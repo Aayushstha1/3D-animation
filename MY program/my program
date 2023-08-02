@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        @import url(https://fonts.googleapis.com/css? family=PT+Sans);
+        *{box-sizing:border-box}
+        html {background:#88bfd4};
+        text-align: cunter}
+        #menu{
+            list-style-position: none;
+            padding:0 12px; margin:0;
+            background-color: #5c8a97;
+            margin: 100px;
+            display: inline-block;
+            height: 50px;
+            overflow: hidden;
+            border-radius:5px;
+            box-shadow: 0px 4px #3b636e,0px 4px 6px rgba(0,0,0,0.3);
+        }
+        #menu li { 
+            margin-left: 10px;
+            display: inline-block;
+            position: relative;
+            bottom: -11px;
+        }
+        #menu li: first-child{margin:0}
+        #menu li a{
+            background: #a1d0dd;
+            display: block;
+            border-radius: 3px;
+            padding: 0 12px;
+            color: white;
+            position: relative;
+            text-decoration: none;
+            height: 27px;
+            font: 12px / 27px "PT Sans",Arial,sans-serif;
+        }
+        box-shadow: 0px 4px 5px rgba(0,0,0,0.3)
+        transition: all 0.3 s ease;
+    }
+    #menu li a:hover {background:#bae0ea}
+    #menu li a active{
+        background: #bae0ea;
+        bottom:-3px;
+        box-shadow:0px 0px #7fafbc, 0px 1px 3px rgba(0,0,0,0.3)
+
+    </style>
+    </head>
+    <body>
+        <ul id="menu">
+            <li><a href="#">previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">Next</a></li>
+             </ul>
+    </body>
+</html>
